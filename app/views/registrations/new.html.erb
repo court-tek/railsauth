@@ -1,3 +1,5 @@
+<h2>Sign Up</h2>
+
 <%= form_with(model: @user, class: "alt", url: registration_path) do |form| %>
   <% if form.object.errors.any? %>
     <% form.object.errors.full_messages.each do |message| %>
